@@ -1,6 +1,6 @@
 provider "google" {
-  credentials = "${file("../f5-gcs-5557-mktg-devcentral-ab07544cb98f.json")}"
-  project = "f5-gcs-5557-mktg-devcentral"
+  credentials = "${file("../rodrigo-albuquerque-ea02c91e15d4.json")}"
+  project = "rodrigo-albuquerque"
   region = "europe-west1-d"
 }
 
