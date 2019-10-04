@@ -1,3 +1,9 @@
+provider "bigip" {
+  address  = "1.1.1.1"
+  username = "root"
+  password = "root"
+}
+
 provider "google" {
   credentials = "${file("../rodrigo-albuquerque-ea02c91e15d4.json")}"
   project = "rodrigo-albuquerque"
